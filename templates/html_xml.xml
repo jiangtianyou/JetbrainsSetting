@@ -1,0 +1,51 @@
+<templateSet group="html/xml">
+  <template name="vn" value="v-on:" shortcut="ENTER" description="v-on:" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="CD" value="&lt;![CDATA[&#10;$SELECTION$&#10;]]&gt;" shortcut="ENTER" description="Surround with CDATA section" toReformat="false" toShortenFQNames="false">
+    <context />
+  </template>
+  <template name="vbd" value="v-bind:" description="v-bind:" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="impjq" value="&lt;script src=&quot;https://cdn.jsdelivr.net/jquery/3.1.0/jquery.min.js&quot;&gt;&lt;/script&gt;" description="import Jquery" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="btn" value="&lt;button class=&quot;button_btn_blue&quot; onclick=&quot;$END$&quot;&gt;&lt;/button&gt;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="rv-v" value="rv-value=&quot;md.$END$&quot;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="rv-t" value="rv-text=&quot;$END$&quot;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="rv-e" value="rv-each-item=&quot;$END$&quot;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="sel" value="&lt;select rv-value=&quot;md.$end$&quot;&gt;&#10;  &lt;option value=&quot;&quot;&gt;请选择&lt;/option&gt;&#10;  &lt;option rv-value=&quot;item.value&quot; rv-each-item=&quot;md.&quot; rv-text=&quot;item.displayValue&quot;&gt;&lt;/option&gt;&#10;&lt;/select&gt;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="tab" value="&lt;table class=&quot;form_table&quot;&gt;&#10;   &lt;tbody&gt;&#10;      &lt;tr&gt;&#10;        $END$ &#10;      &lt;/tr&gt;&#10;   &lt;/tbody&gt;&#10;&lt;/table&gt;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+</templateSet>

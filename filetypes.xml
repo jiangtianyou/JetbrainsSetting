@@ -1,0 +1,8 @@
+<application>
+  <component name="FileTypeManager" version="17">
+    <extensionMap>
+      <mapping pattern="/controller/DingController.java" type="Native" />
+      <mapping pattern=".name" type="PLAIN_TEXT" />
+    </extensionMap>
+  </component>
+</application>

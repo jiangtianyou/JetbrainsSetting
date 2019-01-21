@@ -1,0 +1,8 @@
+<templateSet group="plain">
+  <template name="pstr" value="private String $END$" description="private String something" toReformat="false" toShortenFQNames="true" />
+  <template name="ren" value="return null;" description="return null;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>

@@ -1,0 +1,47 @@
+<templateSet group="JavaScript">
+  <template name="cl" value="console.log($END$)" description="Console.log" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="did" value="document.getElementById(&quot;$END$&quot;)" description="document.getElementById" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="func" value="function($PARAM$){&#10;  $END$&#10;}" description="Inserts function expression" toReformat="true" toShortenFQNames="true">
+    <variable name="PARAM" expression="capitalize(String)" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+  </template>
+  <template name="clk" value="$(&quot;$index$&quot;).click(function(){&#10;    $END$&#10;})" description="jquery click" toReformat="false" toShortenFQNames="true">
+    <variable name="index" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="sel" value="$(&quot;$INDEX$&quot;)$END$" description="$(&quot;&quot;)" toReformat="false" toShortenFQNames="true">
+    <variable name="INDEX" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="save" value="$.post(rootPath+'/forms/saveFormDataJson/',{json:JSON.stringify(json)},function(data){&#10;            console.log(data);&#10; })" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ajax" value="$.ajax({&#10;&#9;&#9;&#9;&#9;&#9;&#9;url :  '&lt;c:url value=&quot;/forms/saveFormDataJson&quot;/&gt;',&#10;&#9;&#9;&#9;&#9;&#9;&#9;type : &quot;POST&quot;, &#10;&#9;&#9;&#9;&#9;        async: false,&#10;&#9;&#9;&#9;&#9;        data : {&#10;&#9;&#9;&#9;&#9;        &#9;json :  JSON.stringify(saveJson)&#10;&#9;&#9;&#9;&#9;        }, complete : function(xhr, textStatus){&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;var data = JSON.parse(xhr.responseText);&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;if(data.code==&quot;1&quot;){&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;window.opener.queryClick(1);&#10;&#9;&#9;&#9;&#9;&#9;&#9; &#9;&#9;window.close();&#10;&#9;&#9;&#9;&#9;&#9; &#9;&#9;}&#10;&#9;&#9;&#9;&#9;&#9;&#9;   }&#10;&#9;&#9;&#9;&#9;        }); " description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="bind" value="rivets.bind(document.body,{md:model})" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="qc" value="queryClick(1)" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>

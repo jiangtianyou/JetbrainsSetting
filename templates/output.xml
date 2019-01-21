@@ -1,0 +1,22 @@
+<templateSet group="output">
+  <template name="syso" value="System.out.println($END$);" description="Prints a string to System.out" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="main" value="public static void main(String[] args){$END$&#10;}" description="Main Mehod" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="pvt" value="public void test$END$(){&#10;}" description="public void testSomething" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="fixm" value="//FIXME 测试语句" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>

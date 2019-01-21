@@ -1,0 +1,9 @@
+<application>
+  <component name="ParameterNameHintsSettings">
+    <blacklists>
+      <blacklist language="Java">
+        <added pattern="fr.opensagres.xdocreport.document.json.JSONObject.opt(key)" />
+      </blacklist>
+    </blacklists>
+  </component>
+</application>
