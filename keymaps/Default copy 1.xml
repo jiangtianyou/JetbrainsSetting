@@ -1,0 +1,6 @@
+<keymap version="1" name="Default copy 1" parent="$default">
+  <action id="CheckinProject" />
+  <action id="ConsoleView.ClearAll">
+    <keyboard-shortcut first-keystroke="ctrl k" />
+  </action>
+</keymap>
