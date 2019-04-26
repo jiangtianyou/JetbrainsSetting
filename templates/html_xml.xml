@@ -4,9 +4,7 @@
       <option name="HTML" value="true" />
     </context>
   </template>
-  <template name="CD" value="&lt;![CDATA[&#10;$SELECTION$&#10;]]&gt;" shortcut="ENTER" description="Surround with CDATA section" toReformat="false" toShortenFQNames="false">
-    <context />
-  </template>
+  <template name="CD" value="&lt;![CDATA[&#10;$SELECTION$&#10;]]&gt;" shortcut="ENTER" description="Surround with CDATA section" toReformat="false" toShortenFQNames="false" />
   <template name="vbd" value="v-bind:" description="v-bind:" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="HTML" value="true" />
