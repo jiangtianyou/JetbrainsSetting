@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="是否显示" />
       <item value="清除" />
       <item value="组织" />
       <item value="media" />
@@ -20,7 +21,7 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="7" />
+        <entry key="CHINESE" value="8" />
         <entry key="ENGLISH" value="8" />
         <entry key="FRENCH" value="3" />
       </map>
