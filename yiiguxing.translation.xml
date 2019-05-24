@@ -1,8 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
-      <item value="String Utils" />
       <item value="String" />
+      <item value="String Utils" />
       <item value="yml" />
       <item value="存在" />
       <item value="exisit" />
@@ -29,7 +29,7 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="11" />
+        <entry key="CHINESE" value="12" />
         <entry key="ENGLISH" value="12" />
         <entry key="CHINESE_TRADITIONAL" value="2" />
         <entry key="FRENCH" value="3" />
