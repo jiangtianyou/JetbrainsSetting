@@ -13,9 +13,9 @@
     <mask>*.jsp</mask>
     <mask>children</mask>
     <mask>*.pr</mask>
-    <mask>*.xml</mask>
     <mask>*.java</mask>
     <mask>*.yml</mask>
+    <mask>*.xml</mask>
     <mask>*.*</mask>
   </component>
 </application>
