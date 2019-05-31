@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="登录次数" />
       <item value="String" />
       <item value="String Utils" />
       <item value="yml" />
@@ -30,7 +31,7 @@
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="12" />
-        <entry key="ENGLISH" value="12" />
+        <entry key="ENGLISH" value="13" />
         <entry key="CHINESE_TRADITIONAL" value="2" />
         <entry key="FRENCH" value="3" />
       </map>
