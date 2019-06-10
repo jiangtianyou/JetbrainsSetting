@@ -1,0 +1,9 @@
+<application>
+  <component name="ConsoleFoldingSettings">
+    <option name="addedPositive">
+      <list>
+        <option value="15-Mar-2019 10:03:05.522 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\DevTools\apache-tomcat-8.5.34\webapps\manager]" />
+      </list>
+    </option>
+  </component>
+</application>

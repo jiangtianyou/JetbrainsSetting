@@ -1,6 +1,22 @@
 <keymap version="1" name="Default copy" parent="$default">
   <action id="ActivateFavoritesToolWindow" />
+  <action id="ActivateFindToolWindow" />
   <action id="ActivateRestServicesToolWindow">
     <keyboard-shortcut first-keystroke="alt 2" />
+  </action>
+  <action id="ActivateRunDashboardToolWindow">
+    <keyboard-shortcut first-keystroke="alt 2" />
+  </action>
+  <action id="ActivateVersionControlToolWindow">
+    <keyboard-shortcut first-keystroke="alt 3" />
+  </action>
+  <action id="CompileDirty" />
+  <action id="ConsoleView.ClearAll">
+    <keyboard-shortcut first-keystroke="shift ctrl c" />
+  </action>
+  <action id="CopyPaths" />
+  <action id="DatabaseView.CopyDdlAction" />
+  <action id="JRebel Debug">
+    <keyboard-shortcut first-keystroke="ctrl f9" />
   </action>
 </keymap>
